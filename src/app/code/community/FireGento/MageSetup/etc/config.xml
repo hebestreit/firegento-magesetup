@@ -204,12 +204,12 @@
                         <children>
                             <setup>
                                 <title>Setup</title>
-                                <action>adminhtml/magesetup</action>
+                                <action>magesetup/adminhtml_magesetup/</action>
                                 <sort_order>10</sort_order>
                             </setup>
                             <recommended_extensions>
                                 <title>Recommended Extensions</title>
-                                <action>adminhtml/magesetup/extensions</action>
+                                <action>magesetup/adminhtml_magesetup/extensions</action>
                                 <sort_order>15</sort_order>
                             </recommended_extensions>
                         </children>
