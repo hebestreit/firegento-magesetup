@@ -258,6 +258,12 @@
                                 <?php echo $this->__('If your desired locale is missing, please check if it installed.') ?>
                             </td>
                         </tr>
+                        <tr>
+                            <td class="label"><label for="checkbox_email"><?php echo $this->__('Overwrite Existing Email Templates') ?></label></td>
+                            <td class="value">
+                                <input type="checkbox" name="overwrite_emails" id="checkbox_overwrite_emails" value="1" checked="checked" />
+                            </td>
+                        </tr>
                         <?php if ($this->isMultiStore()): ?>
                         <tr>
                             <td class="label"><label for="select_email_locale"><?php echo $this->__('Store Views') ?>:</label></td>

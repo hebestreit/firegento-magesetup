@@ -459,7 +459,7 @@
                         <![CDATA[
                         <tr>
                             <td>
-                                {{block type="magesetup/imprint_content" area="frontend" template="magesetup/imprint/email_footer.phtml"}}
+                                {{block type="magesetup/imprint_content" template="magesetup/imprint/email_footer.phtml"}}
                             </td>
                         </tr>
                         ]]>
